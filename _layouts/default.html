@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+        <!-- Bootstrap -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Photoswipe -->
+        <link rel="stylesheet" href="/css/photoswipe.css">
+
+        <!-- Photoswipe Skin -->
+        <link rel="stylesheet" href="/css/default-skin/default-skin.css">
+
+        <!-- Hover -->
+        <link rel="stylesheet" href="/css/hover-min.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-3982052-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="page-header">
+                <h1 class="helvetica helvetica-big">
+                    <a href="/" class="no-link link">
+                        <span class="link-normal">Bruno Dayan</span> <span class="link-reverse">Photography</span>
+                    </a>
+                </h1>
+
+                <div class="btn-group">
+                    <a href="/" class="btn btn-link no-link link"><span class="helvetica link-normal">home</span></a>
+                    <div class="btn-group">
+                        <a class="btn btn-link no-link link dropdown-toggle" data-toggle="dropdown">
+                            <span class="helvetica link-normal">categories</span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/adv.html"><span class="helvetica link-normal">advertising</span></a></li>
+                            <li><a href="/bea.html"><span class="helvetica link-normal">beauty</span></a></li>
+                            <li><a href="/cel.html"><span class="helvetica link-normal">celebrities</span></a></li>
+                            <li><a href="/fas.html"><span class="helvetica link-normal">fashion</span></a></li>
+                        </ul>
+                    </div>
+                    <a href="/news.html" class="btn btn-link no-link link"><span class="helvetica link-normal">news</span></a>
+                    <a href="/gallery.html" class="btn btn-link no-link link"><span class="helvetica link-normal">gallery</span></a>
+                    <a href="/bio.html" class="btn btn-link no-link link"><span class="helvetica link-normal">bio</span></a>
+                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">archive</span></a>
+                    <a href="mailto:mail@brunodayan.com" class="btn btn-link no-link link"><span class="helvetica link-normal">contact</span></a>
+                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link link"><i class="fa fa-facebook-square link-reverse"></i></a>
+                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link link"><i class="fa fa-instagram link-reverse"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    {{ content }}
+
+    <div class="loader"><i class="fa fa-spinner fa-spin fa-3x"></i></div>
+
+    {% if page.url == "/index.html" %}
+    <nav id="page-nav">
+        <a href="/2.html"></a>
+    </nav>
+    {% endif %}
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+        <!-- Background of PhotoSwipe. 
+             It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+
+            <!-- Container that holds slides. 
+                PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+
+                <div class="pswp__top-bar">
+
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+
+                    <div class="pswp__counter"></div>
+
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div> 
+                </div>
+
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- InfiniteScroll JS -->
+    <script src="/js/jquery.infinitescroll.min.js"></script>
+    <!-- Masonry JS -->
+    <script src="/js/masonry.pkgd.min.js"></script>
+    <!-- ImagesLoaded JS -->
+    <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <!-- Photoswipe JS -->
+    <script src="/js/photoswipe.min.js"></script> 
+    <!-- Photoswipe UI JS -->
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+    <!-- Photoswipe Parse JS -->
+    <script src="/js/photoswipe-parse.js"></script>
+
+    <script>
+        $('#home').imagesLoaded(function(){
+            var ar = $('#home').children();
+            ar.sort(function(a,b){
+              // Get a random number between 0 and 10
+              var temp = parseInt( Math.random()*10 );
+              // Get 1 or 0, whether temp is odd or even
+              var isOddOrEven = temp%2;
+              // Get +1 or -1, whether temp greater or smaller than 5
+              var isPosOrNeg = temp>5 ? 1 : -1;
+              // Return -1, 0, or +1
+              return( isOddOrEven*isPosOrNeg );
+            });
+            $('#home').html(ar);
+            $('.loader').hide();
+            $('#home').animate({ opacity: 1 });
+            $('#home').masonry({
+              // options
+              columnWidth: 100,
+              gutter: 30,
+              itemSelector: '.fig'
+            });
+            
+            initPhotoSwipeFromDOM('#home');
+        });
+
+        $('#home').infinitescroll({
+          navSelector  : '#page-nav',    // selector for the paged navigation 
+          nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
+          itemSelector : '.serie',     // selector for all items you'll retrieve
+          animate: true,
+          errorCallback: function(){
+                $('#infscr-loading').remove();
+            }
+          },
+          // trigger Masonry as a callback
+          function( newElements ) {
+            $('.loader').show();
+            // hide new items while they are loading
+            var $newElems = $( newElements ).css({ opacity: 0 });
+            // ensure that images load before adding to masonry layout
+            $newElems.imagesLoaded(function(){
+              $newElems.sort(function(a,b){
+                // Get a random number between 0 and 10
+                var temp = parseInt( Math.random()*10 );
+                // Get 1 or 0, whether temp is odd or even
+                var isOddOrEven = temp%2;
+                // Get +1 or -1, whether temp greater or smaller than 5
+                var isPosOrNeg = temp>5 ? 1 : -1;
+                // Return -1, 0, or +1
+                return( isOddOrEven*isPosOrNeg );
+              });
+              $('.loader').hide();
+              // show elems now they're ready
+              $newElems.animate({ opacity: 1 });
+              $('#home').masonry( 'appended', $newElems, true );
+              $('#infscr-loading').remove();
+            });
+          }
+        );
+
+    </script>
+
+    </body>
+</html>

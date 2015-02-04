@@ -1,0 +1,6 @@
+name: Bruno Dayan Photography
+markdown: kramdown
+highlighter: pygments
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+
+s3url: https://s3.amazonaws.com/brunodayan
