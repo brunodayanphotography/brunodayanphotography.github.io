@@ -193,8 +193,9 @@
             $('#home').animate({ opacity: 1 });
             $('#home').masonry({
               // options
-              columnWidth: 350,
-              gutter: 30,
+              columnWidth: 150,
+              gutter: 50,
+              isFitWidth: true,
               itemSelector: '.fig'
             });
             
@@ -205,7 +206,6 @@
           navSelector  : '#page-nav',    // selector for the paged navigation 
           nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
           itemSelector : '.serie',     // selector for all items you'll retrieve
-          animate: true,
           errorCallback: function(){
                 $('#infscr-loading').remove();
             }
