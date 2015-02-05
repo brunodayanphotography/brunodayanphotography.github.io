@@ -193,12 +193,12 @@
             $('#home').animate({ opacity: 1 });
             $('#home').masonry({
               // options
-              columnWidth: 100,
+              columnWidth: 350,
               gutter: 30,
               itemSelector: '.fig'
             });
             
-            initPhotoSwipeFromDOM('#home');
+            initPhotoSwipeFromDOM('.serie');
         });
 
         $('#home').infinitescroll({
@@ -232,6 +232,8 @@
               $newElems.animate({ opacity: 1 });
               $('#home').masonry( 'appended', $newElems, true );
               $('#infscr-loading').remove();
+
+              initPhotoSwipeFromDOM('.serie');
             });
           }
         );
