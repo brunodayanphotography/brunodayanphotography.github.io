@@ -4,3 +4,6 @@ highlighter: pygments
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 
 s3url: https://s3.amazonaws.com/brunodayan
+
+gems:
+  - jekyll-sitemap
