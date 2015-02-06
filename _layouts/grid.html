@@ -18,13 +18,15 @@ layout: default
 		</div>
 		{% endfor %}
 	{% else %}
-		{% for image in site.data[page.category] %}
-		<figure class="fig hvr-grow">
-			<a href="{{ site.s3url }}/img/1300px/BrunoDayan-{{ image.filename }}.jpg">
-				<img src="{{ site.s3url }}/img/500px/BrunoDayan-{{ image.filename }}.jpg" class="item">
-			</a>
-		</figure>
-		{% endfor %}
+		<div class="serie">
+			{% for image in site.data[page.category] %}
+			<figure class="fig hvr-grow">
+				<a href="{{ site.s3url }}/img/1300px/BrunoDayan-{{ image.filename }}.jpg">
+					<img src="{{ site.s3url }}/img/500px/BrunoDayan-{{ image.filename }}.jpg" class="item">
+				</a>
+			</figure>
+			{% endfor %}
+		</div>
 	{% endif %}
 
 </div>

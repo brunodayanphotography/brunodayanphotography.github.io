@@ -48,13 +48,13 @@
 .item
 {
   max-width: 500px;
-  max-height: 350px;
+  max-height: 400px;
   margin-bottom: 50px;
 }
 
 .loader
 {
   position: fixed;
-  bottom: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
 }

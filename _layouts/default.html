@@ -199,7 +199,7 @@
               itemSelector: '.fig'
             });
             
-            initPhotoSwipeFromDOM('.serie');
+            initPhotoSwipeFromDOM('#home');
         });
 
         $('#home').infinitescroll({
@@ -233,7 +233,7 @@
               $('#home').masonry( 'appended', $newElems, true );
               $('#infscr-loading').remove();
 
-              initPhotoSwipeFromDOM('.serie');
+              initPhotoSwipeFromDOM('#home');
             });
           }
         );
