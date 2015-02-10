@@ -3,10 +3,8 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
     // parse slide data (url, title, size ...) from DOM elements 
     // (children of gallerySelector)
     var parseThumbnailElements = function(el) {
-        var serieElements = el.childNodes,
-            numSeries = serieElements.length,
-            thumbElements,
-            numNodes,
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
             items = [],
             figureEl,
             linkEl,
@@ -14,48 +12,42 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
             size,
             item;
 
-        for(var j = 0; j < numSeries; j++) {
+        for(var i = 0; i < numNodes; i++) {
 
-            thumbElements = serieElements[j].childNodes;
-            numNodes = thumbElements.length;
+            figureEl = thumbElements[i]; // <figure> element
 
-            for(var i = 0; i < numNodes; i++) {
-
-                figureEl = thumbElements[i]; // <figure> element
-
-                // include only element nodes 
-                if(figureEl.nodeType !== 1) {
-                    continue;
-                }
-
-                linkEl = figureEl.children[0]; // <a> element
-
-                imgEl = linkEl.children[0];
-
-                size = [imgEl.naturalWidth*2.6, imgEl.naturalHeight*2.6];
-
-                // create slide object
-                item = {
-                    src: linkEl.getAttribute('href'),
-                    w: size[0],
-                    h: size[1]
-                };
-
-
-
-                if(figureEl.children.length > 1) {
-                    // <figcaption> content
-                    item.title = figureEl.children[1].innerHTML; 
-                }
-
-                if(linkEl.children.length > 0) {
-                    // <img> thumbnail element, retrieving thumbnail url
-                    item.msrc = linkEl.children[0].getAttribute('src');
-                } 
-
-                item.el = figureEl; // save link to element for getThumbBoundsFn
-                items.push(item);
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
             }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            imgEl = linkEl.children[0];
+
+            size = [imgEl.naturalWidth, imgEl.naturalHeight];
+
+            // create slide object
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: size[0],
+                h: size[1]
+            };
+
+
+
+            if(figureEl.children.length > 1) {
+                // <figcaption> content
+                item.title = figureEl.children[1].innerHTML; 
+            }
+
+            if(linkEl.children.length > 0) {
+                // <img> thumbnail element, retrieving thumbnail url
+                item.msrc = linkEl.children[0].getAttribute('src');
+            } 
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+            items.push(item);
         }
 
         return items;
@@ -84,31 +76,24 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
 
         // find index of clicked item by looping through all child nodes
         // alternatively, you may define index via data- attribute
-        var clickedGallery = clickedListItem.parentNode.parentNode,
-            serieNodes = clickedListItem.parentNode.parentNode.childNodes,
-            numSerieNodes = serieNodes.length,
-            childNodes,
-            numChildNodes,
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
             nodeIndex = 0,
             index;
 
-        for (var j = 0; j < numSerieNodes; j++) {
-
-            childNodes = serieNodes[j].childNodes;
-            numChildNodes = childNodes.length;
-
-            for (var i = 0; i < numChildNodes; i++) {
-                if(childNodes[i].nodeType !== 1) { 
-                    continue; 
-                }
-
-                if(childNodes[i] === clickedListItem) {
-                    index = nodeIndex;
-                    break;
-                }
-                nodeIndex++;
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
             }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
         }
+
 
 
         if(index >= 0) {

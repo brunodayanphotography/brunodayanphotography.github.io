@@ -52,7 +52,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #000;
   opacity: 0;
   -webkit-backface-visibility: hidden;
   will-change: opacity; }
@@ -141,8 +141,8 @@
   font-size: 14px;
   line-height: 16px;
   margin-top: -8px;
-  color: #000; }
+  color: #CCC; }
 
 .pswp__error-msg a {
-  color: #000;
+  color: #CCC;
   text-decoration: underline; }

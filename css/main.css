@@ -37,19 +37,12 @@
 
 .helvetica-big
 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
-#home
+.fig
 {
-  opacity: 0;
-}
-
-.item
-{
-  max-width: 500px;
-  max-height: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .loader

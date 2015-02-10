@@ -2,31 +2,17 @@
 layout: default
 ---
 
-<div id="home" class="container">
+<div id="home" class="container-fluid">
 
-	{% if page.number %}
-		{% assign img = site.data[page.category] %}
-		{% for series in img[page.number] %}
-		<div class="serie serie-{{ series.serie }}">
-			{% for image in series.images %}
-			<figure class="fig hvr-grow">
-				<a href="{{ site.s3url }}/img/1300px/BrunoDayan-{{ image.filename }}.jpg">
-					<img src="{{ site.s3url }}/img/500px/BrunoDayan-{{ image.filename }}.jpg" class="item">
-				</a>
-			</figure>
-			{% endfor %}
-		</div>
-		{% endfor %}
-	{% else %}
-		<div class="serie">
-			{% for image in site.data[page.category] %}
-			<figure class="fig hvr-grow">
-				<a href="{{ site.s3url }}/img/1300px/BrunoDayan-{{ image.filename }}.jpg">
-					<img src="{{ site.s3url }}/img/500px/BrunoDayan-{{ image.filename }}.jpg" class="item">
-				</a>
-			</figure>
-			{% endfor %}
-		</div>
-	{% endif %}
+	{% assign start = page.number | minus: 1 | times: 20 | plus: 1 %}
+	{% assign end = page.number | times: 20 %}
+
+	{% for i in (start..end) %}
+	<figure class="fig">
+		<a href="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg">
+			<img src="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg" class="img-responsive center-block">
+		</a>
+	</figure>
+	{% endfor %}
 
 </div>

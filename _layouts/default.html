@@ -20,9 +20,6 @@
         <!-- Photoswipe Skin -->
         <link rel="stylesheet" href="/css/default-skin/default-skin.css">
 
-        <!-- Hover -->
-        <link rel="stylesheet" href="/css/hover-min.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
@@ -50,32 +47,21 @@
         <div class="container">
 
             <div class="page-header">
-                <h1 class="helvetica helvetica-big">
+                <h1 class="helvetica helvetica-big text-center">
                     <a href="/" class="no-link link">
-                        <span class="link-normal">Bruno Dayan</span> <span class="link-reverse">Photography</span>
+                        <span class="link-normal">Bruno</span> <span class="link-reverse">Dayan</span>
                     </a>
                 </h1>
 
-                <div class="btn-group">
-                    <a href="/" class="btn btn-link no-link link"><span class="helvetica link-normal">home</span></a>
-                    <div class="btn-group">
-                        <a class="btn btn-link no-link link dropdown-toggle" data-toggle="dropdown">
-                            <span class="helvetica link-normal">categories</span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/adv.html"><span class="helvetica link-normal">advertising</span></a></li>
-                            <li><a href="/bea.html"><span class="helvetica link-normal">beauty</span></a></li>
-                            <li><a href="/cel.html"><span class="helvetica link-normal">celebrities</span></a></li>
-                            <li><a href="/fas.html"><span class="helvetica link-normal">fashion</span></a></li>
-                        </ul>
-                    </div>
-                    <a href="/news.html" class="btn btn-link no-link link"><span class="helvetica link-normal">news</span></a>
-                    <a href="/gallery.html" class="btn btn-link no-link link"><span class="helvetica link-normal">gallery</span></a>
-                    <a href="/bio.html" class="btn btn-link no-link link"><span class="helvetica link-normal">bio</span></a>
-                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">archive</span></a>
+                <div class="btn-group btn-group-justified">
+                    <a href="/" class="btn btn-link no-link link"><span class="helvetica link-normal">still</span></a>
+                    <a href="/moving.html" class="btn btn-link no-link link"><span class="helvetica link-normal">moving</span></a>
+                    <a href="/blog.html" class="btn btn-link no-link link"><span class="helvetica link-normal">blog</span></a>
+                    <a href="/biography.html" class="btn btn-link no-link link"><span class="helvetica link-normal">biography</span></a>
                     <a href="mailto:mail@brunodayan.com" class="btn btn-link no-link link"><span class="helvetica link-normal">contact</span></a>
-                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link link"><i class="fa fa-facebook-square link-reverse"></i></a>
-                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link link"><i class="fa fa-instagram link-reverse"></i></a>
+                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">archive</span></a>
+                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">facebook</span></a>
+                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">instagram</span></a>
                 </div>
             </div>
 
@@ -164,8 +150,6 @@
     <script src="/js/bootstrap.min.js"></script>
     <!-- InfiniteScroll JS -->
     <script src="/js/jquery.infinitescroll.min.js"></script>
-    <!-- Masonry JS -->
-    <script src="/js/masonry.pkgd.min.js"></script>
     <!-- ImagesLoaded JS -->
     <script src="/js/imagesloaded.pkgd.min.js"></script>
     <!-- Photoswipe JS -->
@@ -177,27 +161,7 @@
 
     <script>
         $('#home').imagesLoaded(function(){
-            var ar = $('#home').children();
-            ar.sort(function(a,b){
-              // Get a random number between 0 and 10
-              var temp = parseInt( Math.random()*10 );
-              // Get 1 or 0, whether temp is odd or even
-              var isOddOrEven = temp%2;
-              // Get +1 or -1, whether temp greater or smaller than 5
-              var isPosOrNeg = temp>5 ? 1 : -1;
-              // Return -1, 0, or +1
-              return( isOddOrEven*isPosOrNeg );
-            });
-            $('#home').html(ar);
             $('.loader').hide();
-            $('#home').animate({ opacity: 1 });
-            $('#home').masonry({
-              // options
-              columnWidth: 150,
-              gutter: 50,
-              isFitWidth: true,
-              itemSelector: '.fig'
-            });
             
             initPhotoSwipeFromDOM('#home');
         });
@@ -205,33 +169,22 @@
         $('#home').infinitescroll({
           navSelector  : '#page-nav',    // selector for the paged navigation 
           nextSelector : '#page-nav a',  // selector for the NEXT link (to page 2)
-          itemSelector : '.serie',     // selector for all items you'll retrieve
+          itemSelector : '.fig',     // selector for all items you'll retrieve
           errorCallback: function(){
                 $('#infscr-loading').remove();
             }
           },
           // trigger Masonry as a callback
           function( newElements ) {
+            $('#infscr-loading').remove();
             $('.loader').show();
             // hide new items while they are loading
             var $newElems = $( newElements ).css({ opacity: 0 });
             // ensure that images load before adding to masonry layout
             $newElems.imagesLoaded(function(){
-              $newElems.sort(function(a,b){
-                // Get a random number between 0 and 10
-                var temp = parseInt( Math.random()*10 );
-                // Get 1 or 0, whether temp is odd or even
-                var isOddOrEven = temp%2;
-                // Get +1 or -1, whether temp greater or smaller than 5
-                var isPosOrNeg = temp>5 ? 1 : -1;
-                // Return -1, 0, or +1
-                return( isOddOrEven*isPosOrNeg );
-              });
               $('.loader').hide();
               // show elems now they're ready
               $newElems.animate({ opacity: 1 });
-              $('#home').masonry( 'appended', $newElems, true );
-              $('#infscr-loading').remove();
 
               initPhotoSwipeFromDOM('#home');
             });
