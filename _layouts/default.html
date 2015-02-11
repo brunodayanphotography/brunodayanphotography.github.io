@@ -11,9 +11,6 @@
         <!-- Bootstrap -->
         <link href="/css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Font Awesome -->
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-
         <!-- Photoswipe -->
         <link rel="stylesheet" href="/css/photoswipe.css">
 
@@ -44,24 +41,22 @@
     </head>
     <body>
 
-        <div class="container">
+        <div class="container-fluid">
 
             <div class="page-header">
-                <h1 class="helvetica helvetica-big text-center">
-                    <a href="/" class="no-link link">
-                        <span class="link-normal">Bruno</span> <span class="link-reverse">Dayan</span>
-                    </a>
+                <h1 class="baskerville baskerville-big text-center">
+                    <a href="/" class="no-link">BRUNO DAYAN</a>
                 </h1>
 
-                <div class="btn-group btn-group-justified">
-                    <a href="/" class="btn btn-link no-link link"><span class="helvetica link-normal">still</span></a>
-                    <a href="/moving.html" class="btn btn-link no-link link"><span class="helvetica link-normal">moving</span></a>
-                    <a href="/blog.html" class="btn btn-link no-link link"><span class="helvetica link-normal">blog</span></a>
-                    <a href="/biography.html" class="btn btn-link no-link link"><span class="helvetica link-normal">biography</span></a>
-                    <a href="mailto:mail@brunodayan.com" class="btn btn-link no-link link"><span class="helvetica link-normal">contact</span></a>
-                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">archive</span></a>
-                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">facebook</span></a>
-                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link link"><span class="helvetica link-normal">instagram</span></a>
+                <div class="btn-group btn-group-justified" data-spy="affix" data-offset-top="120">
+                    <a href="/" class="btn btn-link no-link"><h3 class="baskerville">STILL</h3></a>
+                    <a href="/moving.html" class="btn btn-link no-link"><h3 class="baskerville">MOVING</h3></a>
+                    <a href="/blog.html" class="btn btn-link no-link"><h3 class="baskerville">BLOG</h3></a>
+                    <a href="/biography.html" class="btn btn-link no-link"><h3 class="baskerville">BIOGRAPHY</h3></a>
+                    <a href="mailto:mail@brunodayan.com" class="btn btn-link no-link"><h3 class="baskerville">CONTACT</h3></a>
+                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link"><h3 class="baskerville">ARCHIVE</h3></a>
+                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link"><h3 class="baskerville">FACEBOOK</h3></a>
+                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link"><h3 class="baskerville">INSTAGRAM</h3></a>
                 </div>
             </div>
 
@@ -69,7 +64,9 @@
 
     {{ content }}
 
-    <div class="loader"><i class="fa fa-spinner fa-spin fa-3x"></i></div>
+    <div class="loader"><h3 class="baskerville">Loading...</h3></div>
+
+    <div class="footer"></div>
 
     {% if page.url == "/index.html" %}
     <nav id="page-nav">

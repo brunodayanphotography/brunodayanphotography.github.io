@@ -6,43 +6,40 @@
 
 .no-link, .no-link:hover{
   color: inherit;
-  text-decoration: none;
 }
 
-.link .link-normal
+.baskerville
 {
-  color: black;
+  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
-.link:hover .link-normal
-{
-  color: darkred;
-}
-
-.link .link-reverse
-{
-  color: darkred;
-}
-
-.link:hover .link-reverse
-{
-  color: black;
-}
-
-.helvetica
-{
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 100;
-}
-
-.helvetica-big
+.baskerville-big
 {
   font-size: 64px;
 }
 
+.page-header
+{
+  padding-bottom: 70px;
+}
+
+.affix-top
+{
+  position: absolute;
+  left: 0;
+  background-color: white;
+}
+
+.affix
+{
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
 .fig
 {
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .loader
@@ -50,4 +47,13 @@
   position: fixed;
   top: 50%;
   left: 50%;
+}
+
+.footer
+{
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: white;
 }
