@@ -43,20 +43,20 @@
 
         <div class="container-fluid">
 
-            <div class="page-header">
+            <div class="header">
                 <h1 class="baskerville baskerville-big text-center">
                     <a href="/" class="no-link">BRUNO DAYAN</a>
                 </h1>
 
-                <div class="btn-group btn-group-justified" data-spy="affix" data-offset-top="120">
-                    <a href="/" class="btn btn-link no-link"><h3 class="baskerville">STILL</h3></a>
-                    <a href="/moving.html" class="btn btn-link no-link"><h3 class="baskerville">MOVING</h3></a>
-                    <a href="/blog.html" class="btn btn-link no-link"><h3 class="baskerville">BLOG</h3></a>
-                    <a href="/biography.html" class="btn btn-link no-link"><h3 class="baskerville">BIOGRAPHY</h3></a>
-                    <a href="mailto:mail@brunodayan.com" class="btn btn-link no-link"><h3 class="baskerville">CONTACT</h3></a>
-                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link"><h3 class="baskerville">ARCHIVE</h3></a>
-                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link"><h3 class="baskerville">FACEBOOK</h3></a>
-                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link"><h3 class="baskerville">INSTAGRAM</h3></a>
+                <div class="btn-group btn-group-justified baskerville affix-top" data-spy="affix" data-offset-top="80">
+                    <a href="/" class="btn btn-link no-link">STILL</a>
+                    <a href="/moving.html" class="btn btn-link no-link">MOVING</a>
+                    <a href="/blog.html" class="btn btn-link no-link">BLOG</a>
+                    <a href="/biography.html" class="btn btn-link no-link">BIOGRAPHY</a>
+                    <a href="mailto:mail@brunodayan.com" class="btn btn-link no-link">CONTACT</a>
+                    <a href="http://www.trunkarchive.com/BRUNO%20DAYAN/images/" target="_blank" class="btn btn-link no-link">ARCHIVE</a>
+                    <a href="http://www.facebook.com/brunodayan" target="_blank" class="btn btn-link no-link">FACEBOOK</a>
+                    <a href="http://www.instagram.com/brunodayanphotography" target="_blank" class="btn btn-link no-link">INSTAGRAM</a>
                 </div>
             </div>
 
@@ -65,8 +65,6 @@
     {{ content }}
 
     <div class="loader"><h3 class="baskerville">Loading...</h3></div>
-
-    <div class="footer"></div>
 
     {% if page.url == "/index.html" %}
     <nav id="page-nav">
@@ -149,6 +147,8 @@
     <script src="/js/jquery.infinitescroll.min.js"></script>
     <!-- ImagesLoaded JS -->
     <script src="/js/imagesloaded.pkgd.min.js"></script>
+    <!-- PanelSnap JS -->
+    <script src="/js/jquery.panelSnap.js"></script>
     <!-- Photoswipe JS -->
     <script src="/js/photoswipe.min.js"></script> 
     <!-- Photoswipe UI JS -->
@@ -160,6 +160,12 @@
         $('#home').imagesLoaded(function(){
             $('.loader').hide();
             
+            $('body').panelSnap({
+                panelSelector: 'figure',
+                easing: 'swing',
+                slideSpeed: 500,
+                offset: 50
+            });
             initPhotoSwipeFromDOM('#home');
         });
 

@@ -2,17 +2,25 @@
 layout: default
 ---
 
-<div id="home" class="container">
+<div class="container-fluid">
 
 	{% assign start = page.number | minus: 1 | times: 20 | plus: 1 %}
 	{% assign end = page.number | times: 20 %}
 
-	{% for i in (start..end) %}
-	<figure class="fig">
-		<a href="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg">
-			<img src="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg" class="img-responsive center-block">
-		</a>
-	</figure>
-	{% endfor %}
+	<div class="row">
+		<div class="col-xs-8 col-xs-offset-2">
+
+			<div id="home">
+			{% for i in (start..end) %}
+				<figure class="fig">
+					<a href="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg">
+						<img src="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg" class="img-responsive center-block">
+					</a>
+				</figure>
+			{% endfor %}
+			</div>
+			
+		</div>
+	</div>
 
 </div>
