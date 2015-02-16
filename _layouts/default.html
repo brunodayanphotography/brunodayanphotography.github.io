@@ -175,8 +175,6 @@
     <script src="/js/jquery.infinitescroll.min.js"></script>
     <!-- ImagesLoaded JS -->
     <script src="/js/imagesloaded.pkgd.min.js"></script>
-    <!-- PanelSnap JS -->
-    <script src="/js/jquery.panelSnap.js"></script>
     <!-- Photoswipe JS -->
     <script src="/js/photoswipe.min.js"></script> 
     <!-- Photoswipe UI JS -->
@@ -188,12 +186,6 @@
         $('#home').imagesLoaded(function(){
             $('.loader').hide();
             
-            $('body').panelSnap({
-                panelSelector: 'figure',
-                easing: 'swing',
-                slideSpeed: 500,
-                offset: 55
-            });
             initPhotoSwipeFromDOM('#home');
         });
 

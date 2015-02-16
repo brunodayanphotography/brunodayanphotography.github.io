@@ -4,8 +4,8 @@ layout: default
 
 <div class="container-fluid">
 
-	{% assign start = page.number | minus: 1 | times: 20 | plus: 1 %}
-	{% assign end = page.number | times: 20 %}
+	{% assign start = page.number | times: 10 | minus: 9 %}
+	{% assign end = page.number | times: 10 %}
 
 	<div class="row">
 		<div class="col-xs-8 col-xs-offset-2">
