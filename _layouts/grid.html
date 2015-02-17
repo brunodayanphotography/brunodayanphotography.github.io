@@ -4,17 +4,14 @@ layout: default
 
 <div class="container-fluid">
 
-	{% assign start = page.number | times: 10 | minus: 9 %}
-	{% assign end = page.number | times: 10 %}
-
 	<div class="row">
 		<div class="col-xs-8 col-xs-offset-2">
 
 			<div id="home">
-			{% for i in (start..end) %}
+			{% for image in site.data.images[page.number] %}
 				<figure class="fig">
-					<a href="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg">
-						<img src="{{ site.s3url }}/img/BrunoDayan-{{i}}.jpg" class="img-responsive center-block">
+					<a href="{{ site.s3url }}/img/BrunoDayan-{{ image }}.jpg">
+						<img src="{{ site.s3url }}/img/BrunoDayan-{{ image }}.jpg" class="img-responsive center-block">
 					</a>
 				</figure>
 			{% endfor %}
