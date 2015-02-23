@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: pygments
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 
-s3url: https://s3.amazonaws.com/brunodayan
+s3url: https://s3.amazonaws.com/brunodayanphotography
 
 gems:
   - jekyll-sitemap
