@@ -1,31 +1,50 @@
 ---
-layout: default
+layout: blog
 title: Bruno Dayan - Blog
 ---
 
 <div class="container content">
 
-	<h2 class="baskerville text-center">My Library</h2>
+	<h1 class="baskerville text-center">My Library</h1>
+	<br>
+	<img src="{{ site.s3url }}/media/mylibrary.jpg" class="img-responsive center-block">
+	<br>
+	<p class="baskerville text-muted">
+		<small>
+			My library is big. Very big. Much too big. It takes up a whole wall. Five rows of books stacked from one end to the other. "The most expensive wallpaper there is!" a friend of mine used to say. He was right. After a while, you just stare at it and don’t even bother opening those books anymore. They just become part of the decoration. But when I bought them it was because I liked what was inside, the photos, the paintings. They talked to me, and I wanted to have them with me.<br>
+
+			I am part of the pre-digital generation. I like to touch books, to go through the pages, to feel the paper, smell the ink. I like the tactile, physical experience of it. So even though it has been a nightmare to move them from one place to another, pack those boxes again and again, I’ve nevertheless always brought them along, everywhere I‘ve lived.<br>
+
+			So my library is a part of my life now. Along the years, I have fed it little by little, seen it grow, to eventually become this "Thing" I felt responsable for. My books are kind of like tattoos. Some may have faded away, some I may not be very proud of anymore, but every single one of them has meant something to me at some point. As such, they are intimate reminders of who I am, and where I come from. But like tattoos, they are also there to be seen, to be read and appreciated by others, and this is why I have decided to share those books with you through this blog.
+		</small>
+	</p>
 
 	<div class="row">
-		<div class="col-xs-8 col-xs-offset-2 col-md-4 col-md-offset-4">
+		<div class="col-xs-6 col-xs-offset-3">
 
 			<ul class="list-unstyled">
 				{% for post in site.posts %}
 					<hr>
 					<li>
-						<h3 class="baskerville text-center">{{ post.title }}</h3>
-						<h4 class="baskerville text-center">
+						<h3 class="baskerville text-center">{{ post.title }}<br>{{ post.subtitle }}</h3>
+						<h4 class="baskerville text-center">{{ post.author }}</h4>
+						<h5 class="baskerville text-center">
 							<small>{{ post.date | date_to_long_string }}</small>
-						</h4>
-						{% if post.image %}
-							<img src="{{ site.s3url }}/media/{{ post.image }}.jpg" class="img-responsive">
+						</h5>
+						{% if post.cover %}
+							<img src="{{ site.s3url }}/media/{{ post.cover }}.jpg" class="img-responsive center-block">
+							<br>
 						{% endif %}
 						<div class="baskerville text-justify">
 
 						{{ post.content }}
 
 						</div>
+						<br>
+						{% for image in post.images %}
+							<img src="{{ site.s3url }}/media/{{ image }}.jpg" class="img-responsive center-block">
+							<br>
+						{% endfor %}
 					</li>
 				{% endfor %}
 			</ul>
