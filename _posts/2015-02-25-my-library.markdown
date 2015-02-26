@@ -1,7 +1,8 @@
 ---
-title: "Ba Ra Kei"
-subtitle: "Ordeal By Roses"
-author: "Eikoh Hosoe"
+layout: post
+title: "BA.RA.KEI"
+subtitle: "Ordeal by Roses"
+author: "by Eikoh Hosoe"
 cover: BarakeiCover
 images:
   - Barakei-1
@@ -13,4 +14,11 @@ images:
   - Barakei-7
 ---
 
-My library is big. Very big. Much too big. It takes up a whole wall. Five rows of books stacked from one end to the other. "The most expensive wallpaper there is!" a friend of mine used to say. He was right. After a while, you just stare at it and don’t even bother opening those books anymore. They just become part of the decoration. But when I bought them it was because I liked what was inside, the photos, the paintings. They talked to me, and I wanted to have them with me.  
+You could call Hosoe Eikoh an Extreme photographer. His photos are intense. They kind of mistreat you. They challenge you esthetically, intellectually and technically.
+
+I’ve never seen negatives being so pushed, so burned, than under the hands of Mr Hosoe. He has no respect for conventional rules of photography, for accepted esthetics. Anything goes, as long as it helps him expresses what he wants. I truly admire him for that.
+Same with his subjects. How many photographers would have the guts, the ability and the power to have a Nobel prize in literature like Mishima, at the peak of his fame, superiorly intelligent, complex and strong personality, follow him in such an unconventional visual project? It goes way beyond portrait photography.
+
+But also, and more important to me, I like his work because I do not understand it all. I feel the intensity, the sensuality, the depth of it, but a big part of it stays a mystery to me. I do not grasp the meaning of all the compositions, the symbols, the poses, and that is fascinating. It belongs to a world I don’t know, I don’t have the codes for, brings me places I haven’t been to before.
+As a matter of fact, a lot of Mr Hosoe's photos are truly unique: you have never seen images like his before and probably never will again.
+They are true works of Art.

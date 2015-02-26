@@ -1,0 +1,39 @@
+---
+layout: blog
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3">
+
+			<h3 class="baskerville text-center">{{ page.title }}<br>{{ page.subtitle }}</h3>
+			<h4 class="baskerville text-center">{{ page.author }}</h4>
+			<h5 class="baskerville text-center">
+				<small>{{ page.date | date_to_long_string }}</small>
+			</h5>
+			{% if page.cover %}
+				<img src="{{ site.s3url }}/media/{{ page.cover }}.jpg" class="img-responsive center-block">
+				<br>
+			{% endif %}
+			<div class="baskerville text-justify">
+
+			{{ content }}
+
+			</div>
+			{% for image in page.images %}
+				<br>
+				<img src="{{ site.s3url }}/media/{{ image }}.jpg" class="img-responsive center-block">
+			{% endfor %}
+			<hr>
+            <ul class="list-inline baskerville clearfix">
+                {% if page.next %}
+                <li class="pull-left"><a href="{{ page.next.url }}" class="so-link">&larr; Previous Book</a></li>
+                {% endif %}
+                {% if page.previous %}
+                <li class="pull-right"><a href="{{ page.previous.url }}" class="so-link">Next Book &rarr;</a></li>
+                {% endif %}
+            </ul>
+
+		</div>
+	</div>
+</div>
