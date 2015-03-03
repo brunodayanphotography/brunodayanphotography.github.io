@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "BA.RA.KEI"
 subtitle: "Ordeal by Roses"
 author: "by Eikoh Hosoe"
