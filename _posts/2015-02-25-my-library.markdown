@@ -17,14 +17,14 @@ images:
   - Barakei-10
 ---
 
-This is a special book for me.  
-It brings together one of my favorite photographer with one of my favorite author.
-Mishima is the one that asked young Eikoh Hosoe to photograph him after he had seen his photos of Butoh Dancer Tatsumi Hijikata ( which later became another memorable book called Kamaitachi ). 
-Hosoe took the role of Director and Mishima offered himself as subject. 
-Shot over a period of a year, the result is a fascinating compilation of baroque, surreal, and ultra sensual "Tableaux Noirs” where Beauty and Death share the lead, symbolized by the book title; Bara meaning Rose and Kei Punishment. 
+This is a special book for me.
+It brings together one of my favorite photographer with one of my favorite author.  
+Mishima is the one that asked young Eikoh Hosoe to photograph him after he had seen his photos of Butoh Dancer Tatsumi Hijikata ( which later became another memorable book called Kamaitachi ).
+Hosoe took the role of Director and Mishima offered himself as subject.  
+Shot over a period of a year, the result is a fascinating compilation of baroque, surreal, and ultra sensual "Tableaux Noirs” where Beauty and Death share the lead, symbolized by the book title; Bara meaning Rose and Kei Punishment.
 First literally translated  Killed by Roses, Mishima later changed it to Ordeal by Roses.
-He personally supervised the second, monumental and international edition of the book ( designed by Tadanori Yokoo ) before his ritual suicide that shocked the world in 1970. 
+He personally supervised the second, monumental and international edition of the book ( designed by Tadanori Yokoo ) before his ritual suicide that shocked the world in 1970.
 He most certainly had intended BARAKEI to be a sort of testament and the last chapter can be seen as an enactment of Mishima’s own death.  
 
-Hosoe Eikoh is an “Extreme" photographer.  His photos are always intense. They kind of mistreat you. They challenge you esthetically, intellectually and technically. 
+Hosoe Eikoh is an “Extreme" photographer. His photos are always intense. They kind of mistreat you. They challenge you esthetically, intellectually and technically.  
 I will later present three other books by him: “Embrace", “Kamaitachi" and "The Butterfly Dream”.
