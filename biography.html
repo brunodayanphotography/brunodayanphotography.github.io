@@ -6,32 +6,10 @@ title: Bruno Dayan - Biography
 <div class="container content">
 	<div class="row">
 		<div class="col-sm-6 col-sm-offset-3">
-			<p class="baskerville text-justify">
-				Born in London, England, raised in Montreal, Canada.<br>
-				<br>
-				Studies Fine Arts and Cinema at Concordia University in Montreal.<br>
-				Second year student short film is selected at Cannes Film Festival.<br>
-				<br>
-				1982 - Moves to Toronto.<br>
-				Starts photographic career. Shoots for main Canadian fashion magazines.<br>
-				<br>
-				1986 - Moves to Tokyo.<br>
-				Shoots editorials, videos and commercials for top Japanese musicians and pop talents while continuing fashion photography.<br>
-				<br>
-				1997 - Moves to Paris.<br>
-				Shoots campaigns for Louis Vuitton, Yves St Laurent, Dior, Moschino, Celine, Escada, Swarovski, Chantal Thomass, Le Printemps, Le Bon March&eacute;, Omega.<br>
-				Contributes to publications such as Num&eacute;ro, Vogue, L'Officiel, Elle, Marie-Claire.<br>
-				<br>
-				2013 - Solo exhibition "A Corps Perdu" at Elephant Paname Gallery in Paris.<br>
-				Group Exhibition at Contributed Gallery in Berlin.<br>
-				Published in Prestel "New Fashion Photography".<br>
-				Group Exhibition "Strangeness" at Atelier TOZF Gallery in Paris.<br>
-				<br>
-				2014 - Moves to New York.<br> 
-				Shoots campaigns for Absolut Vodka, Vera Wang, Waldorf Astoria.<br>
-				<br>
-				Currently based in New York.
-			</p>
+			<div class="baskerville text-justify">
+				{% capture biography %}{% include biography.markdown %}{% endcapture %}
+				{{ biography | markdownify }}
+			</div>
 		</div>
 	</div>
 </div>

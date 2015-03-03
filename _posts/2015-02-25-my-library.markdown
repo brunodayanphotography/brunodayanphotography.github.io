@@ -17,11 +17,14 @@ images:
   - Barakei-10
 ---
 
-You could call Hosoe Eikoh an Extreme photographer. His photos are intense. They kind of mistreat you. They challenge you esthetically, intellectually and technically.
+This is a special book for me.  
+It brings together one of my favorite photographer with one of my favorite author.
+Mishima is the one that asked young Eikoh Hosoe to photograph him after he had seen his photos of Butoh Dancer Tatsumi Hijikata ( which later became another memorable book called Kamaitachi ). 
+Hosoe took the role of Director and Mishima offered himself as subject. 
+Shot over a period of a year, the result is a fascinating compilation of baroque, surreal, and ultra sensual "Tableaux Noirs” where Beauty and Death share the lead, symbolized by the book title; Bara meaning Rose and Kei Punishment. 
+First literally translated  Killed by Roses, Mishima later changed it to Ordeal by Roses.
+He personally supervised the second, monumental and international edition of the book ( designed by Tadanori Yokoo ) before his ritual suicide that shocked the world in 1970. 
+He most certainly had intended BARAKEI to be a sort of testament and the last chapter can be seen as an enactment of Mishima’s own death.  
 
-I’ve never seen negatives being so pushed, so burned, than under the hands of Mr Hosoe. He has no respect for conventional rules of photography, for accepted esthetics. Anything goes, as long as it helps him expresses what he wants. I truly admire him for that.
-Same with his subjects. How many photographers would have the guts, the ability and the power to have a Nobel prize in literature like Mishima, at the peak of his fame, superiorly intelligent, complex and strong personality, follow him in such an unconventional visual project? It goes way beyond portrait photography.
-
-But also, and more important to me, I like his work because I do not understand it all. I feel the intensity, the sensuality, the depth of it, but a big part of it stays a mystery to me. I do not grasp the meaning of all the compositions, the symbols, the poses, and that is fascinating. It belongs to a world I don’t know, I don’t have the codes for, brings me places I haven’t been to before.
-As a matter of fact, a lot of Mr Hosoe's photos are truly unique: you have never seen images like his before and probably never will again.
-They are true works of Art.
+Hosoe Eikoh is an “Extreme" photographer.  His photos are always intense. They kind of mistreat you. They challenge you esthetically, intellectually and technically. 
+I will later present three other books by him: “Embrace", “Kamaitachi" and "The Butterfly Dream”.
