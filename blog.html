@@ -51,6 +51,13 @@ title: My Library
 			{{ post.content }}
 
 			</div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-sm-6 col-sm-offset-3">
+			
 			{% for image in post.images %}
 				<br>
 				<img src="{{ site.s3url }}/media/{{ image }}.jpg" class="img-responsive center-block">
