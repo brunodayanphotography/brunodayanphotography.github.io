@@ -62,10 +62,10 @@ title: My Library
 			<hr>
             <ul class="list-inline baskerville clearfix">
                 {% if post.next %}
-                <li class="pull-left"><a href="{{ post.next.url }}" class="so-link">&larr; Previous Book</a></li>
+                <li class="pull-left"><a href="{{ post.next.url }}" class="no-link">&larr; Previous Book</a></li>
                 {% endif %}
                 {% if post.previous %}
-                <li class="pull-right"><a href="{{ post.previous.url }}" class="so-link">Next Book &rarr;</a></li>
+                <li class="pull-right"><a href="{{ post.previous.url }}" class="no-link">Next Book &rarr;</a></li>
                 {% endif %}
             </ul>
 
