@@ -12,6 +12,9 @@ images:
   - Barakei-5
   - Barakei-6
   - Barakei-7
+  - Barakei-8
+  - Barakei-9
+  - Barakei-10
 ---
 
 You could call Hosoe Eikoh an Extreme photographer. His photos are intense. They kind of mistreat you. They challenge you esthetically, intellectually and technically.

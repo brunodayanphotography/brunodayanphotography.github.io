@@ -5,12 +5,13 @@ title: My Library
 
 <div class="container content">
 
-    <h1 class="baskerville text-center">My Library</h1>
+    <h1 class="baskerville text-center">MY LIBRARY</h1>
 
     <div class="row">
-		<div class="col-sm-8 col-sm-offset-2">
+		<div class="col-sm-6 col-sm-offset-3">
 		    <br>
 		    <img src="{{ site.s3url }}/media/mylibrary.jpg" class="img-responsive center-block">
+		    <br>
 		    <br>
 		</div>
 	</div>
@@ -24,10 +25,11 @@ title: My Library
     </p>
 
 	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
+		<div class="col-sm-4 col-sm-offset-4">
 
 			{% assign post = site.posts | first %}
 			<hr>
+			<br>
 			<h3 class="baskerville text-center">{{ post.title }}<br>{{ post.subtitle }}</h3>
 			<h4 class="baskerville text-center">{{ post.author }}</h4>
 			<h5 class="baskerville text-center">
