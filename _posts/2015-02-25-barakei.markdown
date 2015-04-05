@@ -2,18 +2,18 @@
 title: "BA.RA.KEI"
 subtitle: "Ordeal by Roses"
 author: "by Eikoh Hosoe"
-cover: BarakeiCover
+cover: Barakei/Barakei-Cover
 images:
-  - Barakei-1
-  - Barakei-2
-  - Barakei-3
-  - Barakei-4
-  - Barakei-5
-  - Barakei-6
-  - Barakei-7
-  - Barakei-8
-  - Barakei-9
-  - Barakei-10
+  - Barakei/Barakei-1
+  - Barakei/Barakei-2
+  - Barakei/Barakei-3
+  - Barakei/Barakei-4
+  - Barakei/Barakei-5
+  - Barakei/Barakei-6
+  - Barakei/Barakei-7
+  - Barakei/Barakei-8
+  - Barakei/Barakei-9
+  - Barakei/Barakei-10
 ---
 
 This is a special book for me.
