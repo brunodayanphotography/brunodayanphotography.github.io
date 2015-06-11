@@ -4,16 +4,16 @@ subtitle: ""
 author: "by José Ortiz-Echagüe"
 cover: Jose_Ortiz-Echague/Jose_Ortiz-Echague-Cover
 images:
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-1
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-2
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-3
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-4
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-5
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-6
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-7
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-8
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-9
-  - José Ortiz-Echagüe/José Ortiz-Echagüe-10
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-1
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-2
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-3
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-4
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-5
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-6
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-7
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-8
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-9
+  - Jose_Ortiz-Echague/Jose_Ortiz-Echague-10
 ---
 
 José Ortiz Echagüe is an artist from a different era, the kind you don’t find anymore. Air pioneer, decorated war pilot, successful industrialist, his photography was a hobby he accomplished with as much determination and perfectionism as everything else in his life. From the first coating of emulsion (he employed four coats), to the preparation of the paper, to the last finishing touches on the image, he did everything himself without help of any kind, taking sometimes a whole day to produce only one print.
