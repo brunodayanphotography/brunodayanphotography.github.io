@@ -2,7 +2,7 @@
 title: "JOSE ORTIZ-ECHAGUE"
 subtitle: ""
 author: "by José Ortiz-Echagüe"
-cover: José Ortiz-Echagüe/José Ortiz-Echagüe-Cover
+cover: Jose_Ortiz-Echague/Jose_Ortiz-Echague-Cover
 images:
   - José Ortiz-Echagüe/José Ortiz-Echagüe-1
   - José Ortiz-Echagüe/José Ortiz-Echagüe-2
