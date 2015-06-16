@@ -17,7 +17,8 @@ images:
 ---
 
 José Ortiz-Echagüe is an artist from a different era, the kind you don’t find anymore.  
-Air pioneer, decorated war pilot, successful industrialist, his photography was a hobby he accomplished with as much determination and perfectionism as everything else in his life. From the first coating of emulsion (he employed four coats), to the preparation of the paper, to the last finishing touches on the image, he did everything himself without help of any kind, taking sometimes a whole day to produce only one print.
+Air pioneer, decorated war pilot, successful industrialist, his photography was a hobby he accomplished with as much determination and perfectionism as everything else in his life.  
+From the first coating of emulsion (he employed four coats), to the preparation of the paper, to the last finishing touches on the image, he did everything himself without help of any kind, taking sometimes a whole day to produce only one print.
 And because he literally used water color paint on drawing paper, instead of silver salts on bromide prints, his carbon method prints do look like paintings sometimes.
 
 Ironically, José Ortiz-Echagüe did not consider himself a “pictorialist” photographer but a “documentary” one.   
