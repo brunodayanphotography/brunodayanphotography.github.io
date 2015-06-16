@@ -1,6 +1,6 @@
 ---
 title: "JOSE ORTIZ-ECHAGUE"
-subtitle: ""
+subtitle: "Photographs"
 author: "by José Ortiz-Echagüe"
 cover: Jose_Ortiz-Echague/Jose_Ortiz-Echague-Cover
 images:
