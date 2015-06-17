@@ -2,7 +2,7 @@
 title: "EXILS"
 subtitle: ""
 author: "by Josef Koudelka"
-cover: Exils/Exils-Cover
+cover: Exils/Exils-cover
 images:
   - Exils/Exils-1
   - Exils/Exils-2
