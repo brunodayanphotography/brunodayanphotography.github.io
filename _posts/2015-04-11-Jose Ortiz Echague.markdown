@@ -1,7 +1,7 @@
 ---
 title: "JOSE ORTIZ-ECHAGUE"
 subtitle: "Photographs"
-author: "by José Ortiz-Echagüe"
+author: "by José Ortiz-Echagüe (1896-1980)"
 cover: Jose_Ortiz-Echague/Jose_Ortiz-Echague-Cover
 images:
   - Jose_Ortiz-Echague/Jose_Ortiz-Echague-1
