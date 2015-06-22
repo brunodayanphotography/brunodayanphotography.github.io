@@ -1,7 +1,7 @@
 ---
 title: "UNTITLED"
 subtitle: ""
-author: "by Diane Arbus"
+author: "by Diane Arbus (1923-1971)"
 cover: Untitled/Untitled-Cover
 images:
   - Untitled/Untitled-1
