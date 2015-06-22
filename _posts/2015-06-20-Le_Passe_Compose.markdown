@@ -1,7 +1,7 @@
 ---
 title: "LE PASSE COMPOSE"
 subtitle: "Les 6x13 de Jacques-Henri Lartigue"
-author: "by Jacques-Henri Lartigue"
+author: "by Jacques-Henri Lartigue (1894-1986)"
 cover: Le_Passe_Compose/Le Passe Compose-Cover
 images:
   - Le_Passe_Compose/Le Passe Compose-1
