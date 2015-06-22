@@ -1,7 +1,7 @@
 ---
 title: "OUTLAND"
 subtitle: ""
-author: "by Roger Ballen"
+author: "by Roger Ballen (1950- )"
 cover: Outland/Outland-Cover
 images:
   - Outland/Outland-1
