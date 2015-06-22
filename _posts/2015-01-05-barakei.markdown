@@ -1,7 +1,7 @@
 ---
 title: "BA.RA.KEI"
 subtitle: "Ordeal by Roses"
-author: "by Eikoh Hosoe"
+author: "by Eikoh Hosoe  (1933- )"
 cover: Barakei/Barakei-Cover
 images:
   - Barakei/Barakei-1
