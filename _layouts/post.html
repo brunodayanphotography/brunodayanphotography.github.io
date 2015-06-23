@@ -4,27 +4,9 @@ layout: blog
 
 <div class="container content">
 
-	<h1 class="baskerville text-center">MY LIBRARY</h1>
-	
-	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
-		    <br>
-		    <img src="{{ site.s3url }}/media/mylibrary.jpg" class="img-responsive center-block">
-		    <br>
-		    <br>
-		</div>
-	</div>
-
-    <div class="baskerville text-muted">
-        {% capture library %}{% include library.markdown %}{% endcapture %}
-		{{ library | markdownify }}
-    </div>
-
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-4">
 
-			<hr>
-			<br>
 			<h3 class="baskerville text-center">{{ page.title }}<br>{{ page.subtitle }}</h3>
 			<h4 class="baskerville text-center">{{ page.author }}</h4>
 			<h5 class="baskerville text-center">
@@ -66,6 +48,8 @@ layout: blog
                 <li class="pull-right"><a href="{{ page.previous.url }}" class="no-link">Next Book &rarr;</a></li>
                 {% endif %}
             </ul>
+            <h5 class="baskerville text-center"><a href="/blog.html" class="no-link">My Library</a></h5>
+            <br>
 
 		</div>
 	</div>

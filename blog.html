@@ -24,50 +24,21 @@ title: My Library
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-4">
 
-			{% assign post = site.posts | first %}
-			<hr>
-			<br>
-			<h3 class="baskerville text-center">{{ post.title }}<br>{{ post.subtitle }}</h3>
-			<h4 class="baskerville text-center">{{ post.author }}</h4>
-			<h5 class="baskerville text-center">
-				<small>{{ post.date | date_to_long_string }}</small>
-			</h5>
-			{% if post.cover %}
-				<img src="{{ site.s3url }}/media/{{ post.cover }}.jpg" class="img-responsive center-block">
+			{% for post in site.posts %}
+				<hr>
 				<br>
-			{% endif %}
-
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-sm-8 col-sm-offset-2">
-
-			<div class="baskerville text-justify">
-
-			{{ post.content }}
-
-			</div>
-
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
-			
-			{% for image in post.images %}
+				<h3 class="baskerville text-center"><a href="{{ post.url }}" class="no-link">{{ post.title }}<br>{{ post.subtitle }}</a></h3>
+				<h4 class="baskerville text-center">{{ post.author }}</h4>
+				<h5 class="baskerville text-center">
+					<small>{{ post.date | date_to_long_string }}</small>
+				</h5>
+				{% if post.cover %}
+					<a href="{{ post.url }}"><img src="{{ site.s3url }}/media/{{ post.cover }}.jpg" class="img-responsive center-block"></a>
+					<br>
+				{% endif %}
+				<h5 class="baskerville text-center"><a href="{{ post.url }}" class="no-link">Read Book</a></h5>
 				<br>
-				<img src="{{ site.s3url }}/media/{{ image }}.jpg" class="img-responsive center-block">
 			{% endfor %}
-			<hr>
-            <ul class="list-inline baskerville clearfix">
-                {% if post.next %}
-                <li class="pull-left"><a href="{{ post.next.url }}" class="no-link">&larr; Previous Book</a></li>
-                {% endif %}
-                {% if post.previous %}
-                <li class="pull-right"><a href="{{ post.previous.url }}" class="no-link">Next Book &rarr;</a></li>
-                {% endif %}
-            </ul>
 
 		</div>
 	</div>
