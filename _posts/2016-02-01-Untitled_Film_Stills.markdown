@@ -2,7 +2,7 @@
 title: "UNTITLED FILM STILLS"
 subtitle:
 author: "by Cindy Sherman (1954-)"
-cover: Untitled_Film_Stills/Untitled Film Stills-Cover
+cover: Untitled_Film_Stills/Untitled Film Stills-cover
 images:
   - Untitled_Film_Stills/Untitled Film Stills-1
   - Untitled_Film_Stills/Untitled Film Stills-2
