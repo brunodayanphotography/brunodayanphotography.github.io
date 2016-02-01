@@ -1,6 +1,6 @@
 ---
 title: "UNTITLED FILM STILLS"
-subtitle: "Untitled Film Stills by Cindy Sherman"
+subtitle:
 author: "by Cindy Sherman (1954-)"
 cover: Untitled_Film_Stills/Untitled Film Stills-Cover
 images:
