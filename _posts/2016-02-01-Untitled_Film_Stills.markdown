@@ -15,7 +15,7 @@ images:
   - Untitled_Film_Stills/Untitled Film Stills-9
   - Untitled_Film_Stills/Untitled Film Stills-10
 ---
-UNTITLED FILM STILLS, a series of black and White photographs, taken in between 1977 and 1980 were Cindy Sherman first real work as a professional artist and photographer, and yet became her most recognized and without a doubt one of the most influential work in recent art. 
+UNTITLED FILM STILLS, a series of black and white photographs, taken in between 1977 and 1980 were Cindy Sherman first real work as a professional artist and photographer, and yet became her most recognized and without a doubt one of the most influential work in recent art. 
 
 She imagined, modeled, styled, made-up and photographed all the characters herself, mostly in her flats and the streets of New York, occasionally with the help of a friend or family member, in a planned yet very casual and improvised manner.
 
