@@ -1,6 +1,4 @@
 name: Bruno Dayan Photography
-markdown: kramdown
-highlighter: pygments
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "CNAME"]
 timezone: America/New_York
 
