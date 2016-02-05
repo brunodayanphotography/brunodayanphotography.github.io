@@ -2,7 +2,7 @@
 title: "IMMEDIATE FAMILY"
 subtitle:
 author: "by Sally Mann (1951-)"
-cover: Immediate_Family/Immediate Family-Cover
+cover: Immediate_Family/Immediate Family-cover
 images:
   - Immediate_Family/Immediate Family-1
   - Immediate_Family/Immediate Family-2
