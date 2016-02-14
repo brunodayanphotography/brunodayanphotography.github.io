@@ -4,16 +4,16 @@ subtitle:
 author: "by Bruce Davidson (1933-)"
 cover: East 100th Street/East 100th Street-cover
 images:
-  - East 100th Street/East 100th Street--1
-  - East 100th Street/East 100th Street--2
-  - East 100th Street/East 100th Street--3
-  - East 100th Street/East 100th Street--4
-  - East 100th Street/East 100th Street--5
-  - East 100th Street/East 100th Street--6
-  - East 100th Street/East 100th Street--7
-  - East 100th Street/East 100th Street--8
-  - East 100th Street/East 100th Street--9
-  - East 100th Street/East 100th Street--10
+  - East 100th Street/East 100th Street-1
+  - East 100th Street/East 100th Street-2
+  - East 100th Street/East 100th Street-3
+  - East 100th Street/East 100th Street-4
+  - East 100th Street/East 100th Street-5
+  - East 100th Street/East 100th Street-6
+  - East 100th Street/East 100th Street-7
+  - East 100th Street/East 100th Street-8
+  - East 100th Street/East 100th Street-9
+  - East 100th Street/East 100th Street-10
 ---
 When I was a kid, especially for a foreigner living outside the U.S. like me, Harlem was a myth.      
 New York had the Statue of Liberty, the Empire State Building, 42nd St, and : The Ghetto.  A place where nobody would dare go to because of almost certainly never coming back. Some kind of mythological no man’s land, inaccessible to mere mortals (especially white) like me, who could only fantasize about what it was really like.  Sure, there was always somebody who knew someone who had been there, but you could’t help being skeptical of such a fabulous tale.
