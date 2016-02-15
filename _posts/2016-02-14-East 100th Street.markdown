@@ -26,4 +26,4 @@ By giving away prints of his portraits to his subjects, the “picture man” be
 
 The almost neutral, and undramatic way in which he chooses to photograph them, makes the photos all the more sincere and authentic, therefore powerful.  
 They are portraits of all sorts of characters, gang members, but also young couples, large happy families, solitary old persons, children, etc…   
-In a way, he demystified Harlem, portraying the people of EAST 100TH STREET in such casual manner, giving them back their dignity, pride, and more simply their normality.
+In a way, he demystified Harlem, portraying the people of EAST 100TH STREET in such casual manner, he gave them back their dignity, pride, and more simply their normality.
