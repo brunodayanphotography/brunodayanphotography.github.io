@@ -1,24 +1,11 @@
-Born in London, England, raised in Montreal, Canada.
+Bruno Dayan was born in London, England and raised in Montreal, Canada where he completed his studies in Fine Arts and Cinema at Concordia University. While still a student, his short film, "Vie d'eau" was selected at Cannes Film Festival.
 
-Studies Fine Arts and Cinema at Concordia University in Montreal.  
-Second year student short film is selected at Cannes Film Festival.
+Bruno began his photographic career in Toronto prior to moving to Japan where in addition to fashion photography he began working extensively with Japanese and international musicians and celebrities.
 
-1982 - Moves to Toronto.  
-Starts photographic career. Shoots for main Canadian fashion magazines.
+After a number of years in Tokyo and Paris, Bruno moved to New York where he is currently based.
 
-1986 - Moves to Tokyo.  
-Shoots editorials, videos and commercials for top Japanese musicians and pop talents while continuing fashion photography.
+Bruno's editorial clients over the years include Numéro, Vanity Fair, Vogue, Harper's Bazaar...
 
-1997 - Moves to Paris.  
-Shoots campaigns for Louis Vuitton, Yves St Laurent, Dior, Moschino, Celine, Escada, Swarovski, Chantal Thomass, Le Printemps, Le Bon Marché, Omega.  
-Contributes to publications such as Numéro, Vogue, L'Officiel, Elle, Marie-Claire.
+His commercial clients include L'Oréal, Louis Vuitton, Omega, Swarovski, YSL, Waldorf Astoria...
 
-2013 - Solo exhibition "A Corps Perdu" at Elephant Paname Gallery in Paris.  
-Group Exhibition at Contributed Gallery in Berlin.  
-Published in Prestel "New Fashion Photography".  
-Group Exhibition "Strangeness" at Atelier TOZF Gallery in Paris.
-
-2014 - Moves to New York.  
-Shoots campaigns for Absolut Vodka, Vera Wang, Waldorf Astoria.
-
-Currently based in New York.
+Entertainment wise, he is collaborating with major studios like Walt Disney Studios, 20th Century Fox, NBC Universal, shooting iconic campaigns such as Star Wars, Into the Woods, The Nutcracker, among others.
